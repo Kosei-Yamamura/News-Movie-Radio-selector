@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Selector</title>
+</head>
+<body>
+    <div class="Position">
+        <p><font size="3">アンケートにご協力頂きありがとうございます。</font></p>
+        <p>以下に文面、動画、ラジオから1つが選択されています。</p>
+        <p>お手数をおかけしますが確認出来次第アンケートに戻っていただき、アンケート内設問5を選択した後次にお進みください。</p>
+        <script>
+            var a=["文面","動画","ラジオ"];
+            var x;
+            x=Math.floor(Math.random()*3); 
+            document.write(a[x]);
+        </script>        
+    </div>
+</body>
+</html>
