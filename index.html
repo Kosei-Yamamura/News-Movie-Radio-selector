@@ -12,12 +12,14 @@
         <p><font size="5">アンケートにご協力頂きありがとうございます。</font></p>
         <p>以下に文面、動画、ラジオから1つが選択されています。</p>
         <p>お手数をおかけしますが確認出来次第アンケートに戻っていただき、アンケート内設問5を選択した後次にお進みください。</p>
-        <script>
-            var a=["文面","動画","ラジオ"];
-            var x;
-            x=Math.floor(Math.random()*3); 
-            document.write(a[x]);
-        </script>        
+        <div class="Selector">
+            <script>
+                var a=["文面","動画","ラジオ"];
+                var x;
+                x=Math.floor(Math.random()*3); 
+                document.write(a[x]);
+            </script>        
+        </div>
     </div>
 </body>
 </html>
